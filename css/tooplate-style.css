@@ -2,7 +2,7 @@
 
   body {
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
+    overflow-x: auto;
     background: #f9f9f9;
   }
 
@@ -83,7 +83,7 @@
   #contact,
   footer {
     background: #ffffff;
-    text-align: center;
+    text-align: left;
   }
 
   .overlay {
@@ -100,40 +100,8 @@
     height: 100%;
   }
 
-  .online-form {
-    position: relative;
-  }
-
-  .online-form .form-control {
-    border-color: #f0f0f0;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 50px;
-    box-shadow: none;
-    height: 50px;
-    margin-right: 0.5em;
-    padding-left: 15px;
-  }
-
-  .online-form input[type="email"] {
-    width: 60%;
-  }
-
-  .online-form button {
-    background: #409bc5;
-    border: 0;
-    color: #ffffff;
-    position: absolute;
-    right: 6em;
-    width: 25%;
-  }
-
-  .online-form button:hover {
-    background: #202020;
-    color: #ffffff;
-  }
-
-
+  
+  
 
   /*---------------------------------------
      BUTTONS               
@@ -532,102 +500,81 @@
 
 
   /*---------------------------------------
-      PRICING             
+      education             
   -----------------------------------------*/
 
   #about .section-title,
-  #pricing .section-title {
-    text-align: center;
+  #education .section-title {
+    text-align: left;
   }
 
-  #pricing .col-md-4 {
+  #education .col-md-4 {
     margin: 0;
     padding: 0;
   }
 
-  #pricing .col-md-4:last-child .pricing-thumb {
+  #education .col-md-4:last-child .education-thumb {
     border-right: 0;
   }
 
-  .pricing-thumb {
+  .education-thumb {
     background: #ffffff;
     border-right: 2px solid #f0f0f0;
     padding: 20px 40px;
   }
 
-  .pricing-title {
+  .education-title {
     padding-bottom: 5px;
   }
 
-  .pricing-info {
+  .education-info {
     border-top: 2px solid #f0f0f0;
     border-bottom: 2px solid #f0f0f0;
   }
 
-  .pricing-info,
-  .pricing-bottom {
+  .education-info,
+  .education-bottom {
     padding: 20px 0;
   }
 
-  .pricing-info p {
+  .education-info p {
     font-size: 16px;
   }
 
-  .pricing-bottom {
+  .education-bottom {
     position: relative;
   }
 
-  .pricing-bottom span {
+  .education-bottom span {
     font-size: 20px;
   }
 
-  .pricing-btn {
+  .education-btn {
     position: absolute;
     top: 15px;
     right: 0;
     display: inline-block;
   }
 
-
-
+  
+  /*---------------------------------------
+      SKILLS             
+  -----------------------------------------*/
+  
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
 
-  #contact-form .col-md-12,
-  #contact-form .col-md-4 {
-    padding-left: 0;
-  }
-
-  #contact-form .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 3px solid #f0f0f0;
-    border-radius: 0;
-    box-shadow: none;
-    margin: 10px 0;
-  }
-
-  #contact-form .form-control:focus {
-    border-bottom-color: #202020;
-  }
-
-  #contact-form input {
-    height: 50px;
-  }
-
-  #contact-form input[type='submit'] {
-    background: #202020;
-    border-radius: 50px;
-    border: 0;
+ 
+  #contact {
     color: #ffffff;
   }
-
-  #contact-form input[type='submit']:hover {
-    background: #409bc5;
-    color: #ffffff;
+  #contact a{
+    color: #e0e0e0;
   }
-  
+  #contact a:hover{
+    color: #409bc5;
+  }
 
 
   /*---------------------------------------
@@ -720,7 +667,7 @@
       bottom: -24em;
     }
 
-    .pricing-thumb {
+    .education-thumb {
       margin-bottom: 30px;
     }
 
@@ -814,3 +761,4 @@
       height: 65vh;
     }
   }
+
